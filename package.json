@@ -1,0 +1,17 @@
+{
+  "name": "personal-knowledge-base",
+  "version": "1.0.0",
+  "description": "个人知识体系网站",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
