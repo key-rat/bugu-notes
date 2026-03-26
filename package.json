@@ -1,7 +1,7 @@
 {
-  "name": "personal-knowledge-base",
+  "name": "bugu-notes",
   "version": "1.0.0",
-  "description": "个人知识体系网站",
+  "description": "布咕 - 个人知识库",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vitepress dev",
