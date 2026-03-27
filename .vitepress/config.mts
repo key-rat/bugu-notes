@@ -14,6 +14,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
+      { text: '科学上网指南', link: '/01_科学上网指南/00_科学上网指南' }
     ],
 
     sidebar: [
@@ -23,10 +24,20 @@ export default defineConfig({
           { text: '首页', link: '/' }
         ]
       },
+      {
+        text: '科学上网指南',
+        items: [
+          { text: '00_科学上网指南', link: '/01_科学上网指南/00_科学上网指南' },
+          { text: '01_常见词汇', link: '/01_科学上网指南/01_常见词汇' },
+          { text: '02_怎么翻墙，如何选择？', link: '/01_科学上网指南/02_怎么翻墙，如何选择？' },
+          { text: '03_翻墙如何保证隐私与安全？', link: '/01_科学上网指南/03_翻墙如何保证隐私与安全？' },
+          { text: '04_机场使用经验', link: '/01_科学上网指南/04_机场使用经验' }
+        ]
+      }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/your-username' }
+      { icon: 'github', link: 'https://github.com/key-rat' }
     ]
   }
 })
