@@ -14,7 +14,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '科学上网指南', link: '/01_科学上网指南/00_科学上网指南' }
+      { text: '科学上网指南', link: '/01_科学上网指南/00_科学上网指南' },
+      { text: 'LLM', link: '/02_LLM/02_LLM基础' }
     ],
 
     sidebar: [
@@ -32,6 +33,13 @@ export default defineConfig({
           { text: '02_怎么翻墙，如何选择？', link: '/01_科学上网指南/02_怎么翻墙，如何选择？' },
           { text: '03_翻墙如何保证隐私与安全？', link: '/01_科学上网指南/03_翻墙如何保证隐私与安全？' },
           { text: '04_机场使用经验', link: '/01_科学上网指南/04_机场使用经验' }
+        ]
+      },
+      {
+        text: 'LLM',
+        items: [
+          { text: '02_LLM基础', link: '/02_LLM/02_LLM基础' },
+          { text: '03_工程化', link: '/02_LLM/03_工程化' }
         ]
       }
     ],
